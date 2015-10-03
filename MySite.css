@@ -19,22 +19,30 @@ div {
 	position: fixed;
 	top:0px;
 	width: 100%;
-	/*originally margin top was -20px*/
 	margin-top: -10px;
 	padding-top: 10px;
-	background-color: #29293D;
+	/*background-color: #29293D;*/
+	background-color: rgba(41,41,61,0.5);
 	margin-bottom: 10px;
 	opacity:50px;
 }
 
 ul {
 	margin: auto;
+	/*border: 1px solid green;*/
 }
 
 li {
+	display: inline-block;
+	vertical-align: middle;
+	/*border: 1px solid yellow;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul li a {
 	/*list-style-type: square;*/
-	display:inline-block;
-	vertical-align: middle;;
+
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 5px 10px 5px 10px;
@@ -43,6 +51,13 @@ li {
 	font-size: 16px;
 	font-family: Tahoma, Verdana, sans-serif;
 	color: #ffffff;
+}
+
+li:first-child{
+	border: none;
+}
+
+#name {
 }
 
 ul a:link{
@@ -55,15 +70,11 @@ ul a:link{
 	height:25px;
 }
 
-ul li:hover a:hover {
-	background-color: white;
+ul a:hover {
+	background-color: rgba(256,256,256,0.5);
 	/*doesnt work somehow
 	font-color: black;*/
 	color:black;
-}
-
-#name {
-
 }
 
 #email{
