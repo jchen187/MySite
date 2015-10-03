@@ -10,6 +10,13 @@ html,body {
 	background-color: #d3d3d3;
 }
 
+
+@media all and (min-width: 480px) {
+    body {
+        /*background-color: lightgreen;*/
+    }
+}
+
 div {
 	border-radius: 5px;
 }
@@ -83,9 +90,13 @@ ul a:hover {
 	width:100%;
 	height:400px;
 	margin-top: 50px;
+	/*background: url("http://www.get-covers.com/wp-content/uploads/2012/03/Brooklyn-Bridge1.jpg") no-repeat center center fixed;*/
 	background-image: url("http://www.get-covers.com/wp-content/uploads/2012/03/Brooklyn-Bridge1.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	/*background-size: 100% auto;*/
+	background-position: right center;
+	background-size:  cover;
+	border:1px dashed yellow;
 }
 
 .left {
