@@ -243,10 +243,13 @@ ul a:hover {
 	color:black;
 }
 
-#email{
-
+.topLeft{
+	float: left;
 }
 
+.topRight{
+	float: right;
+}
 p {
 	text-align:center;;
 	/*doesnt work
