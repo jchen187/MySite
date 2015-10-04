@@ -77,7 +77,6 @@ html,body {
 			/*background-size: 100% auto;*/
 			background-position: 100% auto;
 			background-size: cover;
-			border:1px dashed yellow;
 		}
 
 		#main p {
@@ -132,7 +131,6 @@ html,body {
 			/*background-size: 100% auto;*/
 			background-position: 50% 50%;
 			background-size: cover;
-			border:1px dashed yellow;
 		}
 
 		#main p {
@@ -263,14 +261,16 @@ p {
 }
 
 .border {
-	
+	margin-top: 50px;
 	border: 1px solid pink;
 }
 
 button {
-  display: inline-block;
+  display: block;
+	/*margin auto only works when you have block elements*/
 	margin: auto;
-  /*margin: 0 10px 0 0;*/
+
+	/*margin: 0 10px 0 0;*/
   padding: 15px 45px;
   font-size: 20px;
   font-family: Tahoma,"Bitter",serif;
