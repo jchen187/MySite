@@ -118,6 +118,21 @@ html,body {
 			background-color: #F4EBC3;
 			margin-bottom: 10px;
 		}
+		
+		button {
+		  display: block;
+			/*margin auto only works when you have block elements*/
+			margin: auto;
+
+			/*margin: 0 10px 0 0;*/
+			padding: 10px 30px;
+			font-size: 15px;
+		  font-family: Tahoma,"Bitter",serif;
+		  line-height: 1.8;
+		  appearance: none;
+		  box-shadow: none;
+		  border-radius: 0;
+		}
 }
 
 @media all and (min-width: 720px) {
@@ -174,6 +189,21 @@ html,body {
 			height: 500px;
 			background-color: #F4EBC3;
 			margin-bottom: 10px;
+		}
+
+		button {
+		  display: block;
+			/*margin auto only works when you have block elements*/
+			margin: auto;
+
+			/*margin: 0 10px 0 0;*/
+		  padding: 15px 45px;
+		  font-size: 20px;
+		  font-family: Tahoma,"Bitter",serif;
+		  line-height: 1.8;
+		  appearance: none;
+		  box-shadow: none;
+		  border-radius: 0;
 		}
 }
 
@@ -263,21 +293,6 @@ p {
 .border {
 	margin-top: 50px;
 	border: 1px solid pink;
-}
-
-button {
-  display: block;
-	/*margin auto only works when you have block elements*/
-	margin: auto;
-
-	/*margin: 0 10px 0 0;*/
-  padding: 15px 45px;
-  font-size: 20px;
-  font-family: Tahoma,"Bitter",serif;
-  line-height: 1.8;
-  appearance: none;
-  box-shadow: none;
-  border-radius: 0;
 }
 
 button:focus {
